@@ -1,8 +1,14 @@
 version: '3'
 services:
-  fe:
+  fe1:
     container_name: frontend
     image: dewabt8/frontend
     stdin_open: true
     ports:
       - 3000:3000
+  fe2:
+    container_name: frontend
+    image: dewabt8/frontend
+    stdin_open: true
+    ports:
+      - 3001:3000
